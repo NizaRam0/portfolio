@@ -106,38 +106,22 @@ button{
 button:hover{
     cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 550px) {
+    #header{
+        width:100%;
+    }
+    
     #container {
         width: 90%;
-    }
-    #header{
-        width:100%;
-    }
-    #pname {
-        font-size: 30px;
-    }
-    #prof {
-        font-size: 12px;
-        width: 150px;
-    }
-    .icon {
-        width: 30px;
-    }
-}
-@media screen and (max-width: 480px) {
-    #header{
-        width:100%;
-    }
-    #container {
-        width: 100%;
     }
     #pname {
         font-size: 25px;
     }
     #prof {
         font-size: 10px;
-        width: 120px;
+        width: 175px;
     }
     .icon {
-        width: 25px;
+        width: 30px;
     }}
