@@ -112,6 +112,9 @@ button:hover{
         height: auto;
         padding: 10px;
     }
+    #header{
+        width:100%;
+    }
     #pname {
         font-size: 30px;
     }
@@ -124,6 +127,9 @@ button:hover{
     }
 }
 @media screen and (max-width: 480px) {
+    #header{
+        width:100%;
+    }
     #container {
         width: 100%;
         height: auto;
