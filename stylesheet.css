@@ -109,8 +109,6 @@ button:hover{
 @media screen and (max-width: 768px) {
     #container {
         width: 90%;
-        height: auto;
-        padding: 10px;
     }
     #header{
         width:100%;
@@ -132,7 +130,6 @@ button:hover{
     }
     #container {
         width: 100%;
-        height: auto;
     }
     #pname {
         font-size: 25px;
